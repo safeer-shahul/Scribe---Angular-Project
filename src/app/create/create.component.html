@@ -1,0 +1,21 @@
+<div class="row mt-5">
+    <div class="col">
+        <div class="form-group">
+            <label>Post Title</label>
+            <input type="text" class="form-control"
+            id="title" placeholder="Post Title" name="title"
+            [(ngModel)]="title">
+        </div>
+        <div class="form-group">
+            <label>Post Content</label>
+            <angular-editor  
+            [(ngModel)]="content" [spellcheck]="true" [config]="editorConfig">
+        </angular-editor>
+        </div>
+        <div class="form-group float-right">
+            <button class="btn btn-warning round"
+            (click)="createPost()">Submit</button>
+        </div>
+            
+    </div>
+</div>
