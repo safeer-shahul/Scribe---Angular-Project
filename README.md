@@ -2,6 +2,7 @@
 
 This project is done based on what i learned during Angular training on Intershala Trainings. Where, I learned about basic Angular topics like Interpolation, Data Binding, Angular directives, Pipes and Services and Database connectivity using firebase.
 
+Auto generated project readme file from VSCode: 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
